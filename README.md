@@ -11,8 +11,15 @@ The data that we are interested in is made of 8x8 images of digits, let'shave a 
 Optical Recognition of Handwritten Digits Data Set used preprocessing programs made available by NIST to extract normalized bitmaps of handwritten digits from a preprinted form. From a total of 43 people, 30 contributed to the training set and different 13 to the test set. 32x32 bitmaps are divided into nonoverlapping blocks of 4x4 and the number of on pixels are counted in each block. This generates an input matrix of 8x8 where each element is an integer in the range 0..16. This reduces dimensionality and gives invariance to small distortions. 
 
 # Working
-We use Classification method to classify the digit for this we build confusion metrics 
-First it loads digit data into  it uses Python Scikit-learn Built in machine learning alogorithm
+We use Python Scikit-learn package for applying Classification method to classify the digit
+1. First Import datasets, classifiers and performance metrics
+2. To apply a classifier on this data, we need to flatten the image, to
+ 3. Turn the data in a (samples, feature) matrix:
+ 4. Create a classifier: a support vector classifier
+5. We learn the digits on the first half of the digits
+6. Predict the value of the digit on the second half:
+7. now we built confusion matrices and classification report on the basis of our expected and predicted result
+8.Finally print our Result
 
 # Requirement
 Python Anaconda 
