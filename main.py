@@ -9,15 +9,10 @@ Created on Wed Aug  9 22:26:56 2017
 """
 Recognizing hand-written digits
 
-this shows  showing how the scikit-learn can be used to recognize images of
-hand-written digits.
-
-
-
 """
 print(__doc__)
 
-
+#data
 #http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits
 # Standard scientific Python imports
 import matplotlib.pyplot as plt
